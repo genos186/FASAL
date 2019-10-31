@@ -3,6 +3,7 @@ body{
     background-image: url("farming.jpg"); 
     background-repeat: no-repeat;
     background-size: cover;
+
   }
   .heading{
     background-color: forestgreen;
@@ -50,7 +51,6 @@ body{
 
 /* ADD CSS HERE ------------------------------------------------------------*/
 
-
 .page-heading{
   margin-top: 40px;
   margin-bottom: 40px;
@@ -63,6 +63,7 @@ body{
 .container{
     -webkit-backdrop-filter: blur(10px);
     backdrop-filter: blur(10px);
+    border: 10px groove;
 }
 
 
@@ -71,13 +72,14 @@ body{
 }
 
 .submit-btn{
-    margin-left: 90%;
+    margin-left: 45%;
     position: relative;
+    background-color: midnightblue;
 }
 
 
 
-/* --------- -------------------------------------------------------------------------------- */
+
 .footer {
     padding: 15px;
     text-align: center;
