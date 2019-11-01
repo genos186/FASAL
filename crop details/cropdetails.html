@@ -54,8 +54,9 @@
            <label>Quantity :</label>
            <input type="number" name="crop"  align="left" style="background-color: skyblue; border: none; border-radius: 5px;">
           </div><br><br><br>
-          <input class="button" type="button" value="Submit"/>
-          <div class="in">
+
+          <input class="button" id="button" type="button" value="Submit"/>
+          <div class="in" id="fn" hidden>
             <label>Price :</label>
             <input type="number" name="price" placeholder="Rs./Kg" style="background-color: skyblue; border: none; border-radius: 5px;">
           </div><br><br><br>
@@ -81,6 +82,10 @@
                       </tr>
                 </table>
         	</div>
-		<script src=""></script>
+		<script>
+      $("#button").click(function() {
+      $("#fn").show();
+        });  
+    </script>
 	</body>
 </html>
