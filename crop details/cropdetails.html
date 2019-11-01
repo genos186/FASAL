@@ -23,7 +23,43 @@
   			<a href="E:\WebTech Project\main home\mainhome.html">Sign Out</a>
 		</div>
 		<div class="content">
-		  	
+        <h1 class="head"><b>PROVIDE YOUR CROP DETAILS</b></h1>
+		  	<form class="form1">
+          <div class="in">
+           <label>City Name :</label> 
+           <input list="cities" align="left" style="background-color: skyblue; border: none; border-radius: 5px;">
+           <datalist id="cities">
+             <option>Bangalore</option>
+             <option>Mysore</option>
+             <option>Mangalore</option>
+             <option>Dharwad</option>
+             <option>Belgaum</option>
+             <option>Hubli</option>
+             <option>Tumkur</option>
+           </datalist> 
+          </div><br><br><br>
+          <div class="in">
+           <label>Crop Name :</label>
+           <input list="crops"  align="left" style="background-color: skyblue; border: none; border-radius: 5px;">
+           <datalist id="crops">
+             <option>Tomato</option>
+             <option>Potato</option>
+             <option>Onion</option>
+             <option>Carrot</option>
+             <option>Capsicum</option>
+             <option>Corn</option>
+           </datalist>
+          </div><br><br><br>
+          <div class="in"> 
+           <label>Quantity :</label>
+           <input type="number" name="crop"  align="left" style="background-color: skyblue; border: none; border-radius: 5px;">
+          </div><br><br><br>
+          <input class="button" type="button" value="Submit"/>
+          <div class="in">
+            <label>Price :</label>
+            <input type="number" name="price" placeholder="Rs./Kg" style="background-color: skyblue; border: none; border-radius: 5px;">
+          </div><br><br><br>
+        </form>
 		</div>
 		<br><br><br>
 			<div class="footer">
