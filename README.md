@@ -1,5 +1,11 @@
-# webtech_sem3
-WebTech Project
- Add whatever you guys have written and if your currently working on something make another branch and add your changes to that branch if all of us like the thing then only well put it in the master branch.
+# FASAL
+This is a website called FASAL ,whose main purpose is to remove middlemen from agricultural industry and connect the farmers directly to the consumers. It is a free-hosted website and a friendly, easily usable user interface.
+
+Front-End:HTML,JS,CSS,BootStrap
+
+Back-End:PHP,SQLite 
+
+Credits:Chirag Kashyap S, Siddart Maddi
+
 # FASAL link
 http://farmoree.000webhostapp.com/
